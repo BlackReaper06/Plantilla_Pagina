@@ -37,7 +37,7 @@ public class MainCtrl {
     @GetMapping("/")
     public String raiz(Model model) {
         // Título de la página (DBP)
-        model.addAttribute("msg", "HOLAAAA");
+        model.addAttribute("msg", "HOLA");
         
         // Nombre de usuario (junto a la foto)
         model.addAttribute("nombreUsuario", "Erick Ramirez");
